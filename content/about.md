@@ -43,6 +43,13 @@ My background spans elite sports, international education, and AI product develo
 ### Background
 I've trained C-suite executives in Chinese via international platforms, worked across K12 international education, business consulting, and broadcast team training. Now I'm building an AI-powered one-person company to break out of the 1-on-1 teaching ceiling.
 
+### Social Proof
+- **6,000+ hours** of Chinese teaching across 200+ learners
+- **15+ open source projects** on GitHub with active community
+- **Z TURNS platform** serving global students and enterprises
+- Published Chinese learning materials on Amazon KDP
+- YouTube channel creating AI-powered educational content
+
 ---
 
 ## Expertise
@@ -139,6 +146,13 @@ Over **6,000+ hours** of teaching, I've worked with **200+ Chinese learners** an
 ### 背景经历
 我曾通过国际平台为企业高管提供中文培训，深耕 K12 国际教育、商业咨询与广播团队培训领域。如今，我正在构建一家 AI 驱动的个人公司，突破一对一教学的天花板。
 
+### 社会证明
+- **6000+ 小时**中文教学经验，服务 200+ 学员
+- **15+ 开源项目** 托管于 GitHub，拥有活跃社区
+- **Z TURNS 平台** 服务全球学生与企业客户
+- 在 Amazon KDP 出版中文学习教材
+- YouTube 频道创作 AI 驱动的教育内容
+
 ---
 
 ## 专业领域
@@ -206,4 +220,24 @@ Over **6,000+ hours** of teaching, I've worked with **200+ Chinese learners** an
 (function(){
   window.__ztLang = window.__ztLang || 'en';
 })();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Tony Sheng",
+  "alternateName": "盛长春",
+  "url": "https://zturnsgo.com",
+  "jobTitle": "Chinese Language Coach & AI Product Builder",
+  "knowsAbout": ["Chinese Language Teaching", "AI", "LLM", "Education Technology"],
+  "hasCredential": ["CELTA", "DipTESOL", "CTCSOL", "M.A. Education Leadership"],
+  "knowsLanguage": ["Chinese", "English", "German", "French", "Spanish"],
+  "sameAs": [
+    "https://github.com/shengdabai",
+    "https://www.youtube.com/@zturns-zheteng",
+    "https://x.com/tonyzturns",
+    "https://zturnsgo.com"
+  ]
+}
 </script>

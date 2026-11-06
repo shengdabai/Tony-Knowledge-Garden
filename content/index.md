@@ -37,6 +37,13 @@ I run **[Z TURNS](https://zturnsgo.com)** — a Chinese learning platform for gl
 → [GitHub: @shengdabai](https://github.com/shengdabai)
 → [YouTube: @zturns-zheteng](https://www.youtube.com/@zturns-zheteng)
 
+## Featured Notes
+
+- [[AI与技术/Claude Code Skills 开发指南|Claude Code Skills 开发指南]] — How to build reusable AI coding agent skills
+- [[中文教学/金句精选/|教学金句精选]] — Real insights from 6000+ hours of Chinese teaching
+- [[计算机科学/Andrew Ng ML 课程笔记|Andrew Ng 机器学习笔记]] — Core ML concepts from Stanford
+- [[投资商业/一人企业方法论|一人企业 OPC 方法论]] — Building a lean AI-powered one-person company
+
 </div>
 
 <div class="zt-zh" style="display:none">
@@ -69,10 +76,49 @@ I run **[Z TURNS](https://zturnsgo.com)** — a Chinese learning platform for gl
 → [GitHub: @shengdabai](https://github.com/shengdabai)
 → [YouTube: @zturns-zheteng](https://www.youtube.com/@zturns-zheteng)
 
+## 精选笔记
+
+- [[AI与技术/Claude Code Skills 开发指南|Claude Code Skills 开发指南]] — 如何构建可复用的 AI 编程代理技能
+- [[中文教学/金句精选/|教学金句精选]] — 6000+ 小时中文教学的真实洞察
+- [[计算机科学/Andrew Ng ML 课程笔记|Andrew Ng 机器学习笔记]] — 斯坦福核心机器学习概念
+- [[投资商业/一人企业方法论|一人企业 OPC 方法论]] — 构建精益 AI 驱动的个人公司
+
 </div>
 
 <script>
 (function(){
   window.__ztLang = window.__ztLang || 'en';
 })();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Tony's Knowledge Garden",
+  "alternateName": ["Tony 的知识花园", "Z TURNS Knowledge Garden"],
+  "url": "https://notes.zturnsgo.com",
+  "description": "A public digital garden with notes on AI, Chinese teaching, learning science, and technology by Tony Sheng.",
+  "author": {
+    "@type": "Person",
+    "name": "Tony Sheng",
+    "url": "https://zturnsgo.com",
+    "sameAs": [
+      "https://github.com/shengdabai",
+      "https://www.youtube.com/@zturns-zheteng",
+      "https://x.com/tonyzturns"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Z TURNS",
+    "url": "https://zturnsgo.com"
+  },
+  "inLanguage": ["en", "zh"],
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://notes.zturnsgo.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
 </script>
