@@ -4,6 +4,7 @@ import { write } from "./helpers"
 import { BuildCtx } from "../../util/ctx"
 import { VFile } from "vfile"
 import path from "path"
+import { escapeHTML } from "../../util/escape"
 
 async function* processFile(ctx: BuildCtx, file: VFile) {
   const ogSlug = simplifySlug(file.data.slug!)
@@ -15,14 +16,14 @@ async function* processFile(ctx: BuildCtx, file: VFile) {
         : aliasTarget
     ) as FullSlug
 
-    const redirUrl = resolveRelative(aliasTargetSlug, ogSlug)
+    const redirUrl = escapeHTML(resolveRelative(aliasTargetSlug, ogSlug))
     yield write({
       ctx,
       content: `
         <!DOCTYPE html>
         <html lang="en-us">
         <head>
-        <title>${ogSlug}</title>
+        <title>${escapeHTML(ogSlug)}</title>
         <link rel="canonical" href="${redirUrl}">
         <meta name="robots" content="noindex">
         <meta charset="utf-8">
